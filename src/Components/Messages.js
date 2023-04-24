@@ -1,13 +1,10 @@
-import SendMessage from "./SendMessage"
-import { useEffect, useState, useRef } from "react";
+
 import ChatBox from "./ChatBox";
 
-import Bubble from "./Bubble";
-import Chat from "./Chat";
+
 
 export default function Messages() {
     
-    const scroll = useRef();        
    
 
     return( 
